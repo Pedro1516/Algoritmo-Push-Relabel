@@ -189,7 +189,7 @@ public:
                 }
             }
         }
-
+        fluxo_maximo = vertice[vertice.size() - 1].excesso;
         return vertice[vertice.size() - 1].excesso;
     }
 };
